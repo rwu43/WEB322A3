@@ -11,8 +11,7 @@
 *  Published URL: ___________________________________________________________
 *
 ********************************************************************************/
-require('pg'); // explicitly require the "pg" module
-const Sequelize = require('sequelize');
+
 
 const legoData = require("./modules/legoSets");
 legoData.initialize();
